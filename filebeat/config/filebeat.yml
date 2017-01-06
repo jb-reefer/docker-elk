@@ -9,4 +9,4 @@ filebeat:
             fields_under_root: true
 output:
     logstash:
-        hosts: ["logstash:5001"]
+        hosts: ["logstash:5000"]
