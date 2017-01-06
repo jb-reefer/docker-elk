@@ -37,8 +37,6 @@ services:
     volumes:
       # Config
       - ./filebeat/config/:/etc/filebeat
-      # Logs
-      - /data:/data  
     links:
       - logstash
 
